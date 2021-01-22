@@ -1,0 +1,121 @@
+
+h1{
+	
+	/* text-align: center; */
+	text-align: center;
+	padding: 10px;
+	/* width: 20px; */
+	color: #ffffff;  /* white color*/
+}
+
+main{
+	margin: 5px;    
+	padding: 10px;  /*space between element and body */
+	background: #3eabbc; /* background color*/
+}
+
+body{
+	border: 5px;
+    padding: 5px;
+    background: #adb6af;
+}
+
+header{ /*setting two color for header and footer */
+	background: #666666;
+	background: -moz-linear-gradient(top,#666666);   /* moz if fo mozilla forefox*/
+	background: -webkit-linear-gradient(#666666 0%); /* upper color*/
+	background: -o-linear-gradient(#666666 0%, #000000); /* o is for opera browser*/
+	background: linear-gradient(#666666 0%, #00B7EA); /* lower shade colour and its %age*/
+}
+
+details summary{  /* only works for summary tag which are inside details*/
+	text-align: center;
+	border: 2px solid #000000;
+	background: #ececff;
+	font-size: x-large;
+}
+
+section{
+	display: inline-block;
+	padding: 10px;
+	/* margin: 5px; */
+	}
+
+details{
+	background: #3eabbc;
+	border: 1px solid #000000;
+	padding : 20px;
+	font-size: larger;
+	}
+
+details ul{
+	display: inline-block;
+	margin-right:5px solid black;
+}
+
+nav{
+	/*font-variant: small-caps;*/
+	font-size: 150%;
+	font-family: Arial ,"Times New Roman",serif;   /* given three opyion for font family so that if one of them are 
+														not supported by the browser then second will work*/
+	padding: 5px;
+	/* display: inline; */
+	margin-right: 20px;
+}
+
+nav a{
+	/* width: 22%; */
+	display: inline-block;
+	background: #ffffff;
+	margin-right: 39px;
+	margin-left: 10px;
+	padding: 5px;
+	text-decoration:  none;
+}
+
+summary{
+	text-align: center;
+    border: 1px solid #000000;
+    background: #ececff;
+    height: 44px;
+    
+}
+
+.active{
+	background: aqua;
+}
+
+#Referenceimg{
+	width: 50%;
+}
+
+iframe{
+	padding: 5px;
+	background: white;
+	margin:5px;
+	border: 5px solid black;
+}
+
+#imgsrc{
+	width: 30%;
+	padding: 10px;
+	margin: 10px;
+	background: #ffffff;
+	border: 2px solid black;
+}
+
+video{
+	width: 50%;
+	padding: 5px;
+	margin: 10px;
+	border: 10px;
+	background: #ffffff;
+}
+
+audio{
+	width: 50%;
+	padding:10px;
+	margin: 5px;
+	border:10px;
+	background: #0c7272;
+}
